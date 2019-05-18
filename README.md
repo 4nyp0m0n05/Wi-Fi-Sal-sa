@@ -1,8 +1,8 @@
-#WiFi Sal-sa (Wi-Fi Saldırı-Savunma)
+# WiFi Sal-sa (Wi-Fi Saldırı-Savunma)
 This project contains 802.11 network attacks and prevention/attention software.
 Scripts are running via bluetooth. BlServ is attacking software and defender is prevention/attention software.
-#Attack
-##Attack Script Parameters (last.py)
+# Attack
+## Attack Script Parameters (last.py)
     -Bagdriving (passive informations) 
     -Handshake (+deauth ) 
     -MiTM (internet connection) 
@@ -10,7 +10,8 @@ Scripts are running via bluetooth. BlServ is attacking software and defender is 
     -Copy Login Page
     -Deauthentication
 
-##BlServ Parameters
+## BlServ Parameters
+    https://github.com/4nyp0m0n05/Wi-Fi-Sal-sa/tree/master/a/a.png
     -Bagdriving -> 1
     -Handshake -> 2
     -Handshake with deauth -> first send 2 and after send 3
@@ -25,15 +26,19 @@ Scripts are running via bluetooth. BlServ is attacking software and defender is 
     -Restart RPi -> 12
     -Kill bluetooth connection ->4
 
-#Prevention/Attention
-#SSIDChecker supported by github.com/xnart
+# Prevention/Attention
+# SSIDChecker supported by github.com/xnart
+https://github.com/4nyp0m0n05/Wi-Fi-Sal-sa/tree/master/a/d.png
 If there are different type same ssid with different credentials (if service is running) notify the situation for APs.
 
-#TestInet supported by github.com/mek-12
+# TestInet supported by github.com/mek-12
+https://github.com/4nyp0m0n05/Wi-Fi-Sal-sa/tree/master/a/b.png
 Checks network connection if connection exist it checks SSLs of some pages if they are real or fake https sites with free SSLs.
 
-#Defender
+# Defender
+https://github.com/4nyp0m0n05/Wi-Fi-Sal-sa/tree/master/a/c.png
 It contains DeauthDbm which shows us the distance between us with deauth attacker (it runs in RPi and we can see details in defender app. We need walk around for find the place of victim with RPi)(Wardriving) and HandshakeBlur which listen deauth packets and if finds them, it starts connecting with fake password which makes wrong EAPOLs so attacker gains fake password(if pcap not sliced)
 
 nginx.conf supported by github.com/xnart. It is for redirection a website with punycode which running ssl.
 
+And if you can please suggest for better code or ideas. Thanks.
