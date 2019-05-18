@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "97945767260",
+    "firebase_url": "https://certificate-29ba3.firebaseio.com",
+    "project_id": "certificate-29ba3",
+    "storage_bucket": "certificate-29ba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97945767260:android:781807f0dd6823f2",
+        "android_client_info": {
+          "package_name": "edu.sakarya.testinet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97945767260-74t6q8q4eka7habpaervmg6qul7ofsmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.sakarya.testinet",
+            "certificate_hash": "cc0a4a93a771ab66869bf1b3916b55c9232a3ca8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQU0HBWCmvllTX2yg_dzW7trgmSWeRSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97945767260-jd7358s6r0td823at4f7s2guid3ojhk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

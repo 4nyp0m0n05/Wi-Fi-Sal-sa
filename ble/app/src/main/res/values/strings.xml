@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BlServ</string>
+    <string name="btnOn">BLE On</string>
+    <string name="btnOff">BLE Off</string>
+    <string name="shl">Paired Devices</string>
+    <string name="send">Send</string>
+</resources>
