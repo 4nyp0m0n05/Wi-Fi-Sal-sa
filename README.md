@@ -45,4 +45,4 @@ It contains DeauthDbm which shows us the distance between us with deauth attacke
 
 nginx.conf supported by github.com/xnart. It is for redirection a website with punycode which running ssl.
 
-And if you can please suggest for better code or ideas. Thanks.
+And if you can please suggest for better code or ideas. Thanks. (It's for educational only.)
